@@ -1,0 +1,119 @@
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.fix:before,
+.fix:after {
+    content: "";
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+.section-padding {
+    padding: 100px 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+.boxed-btn {
+    background-color: #ec4f91;
+    display: inline-block;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.boxed-btn:hover {
+    background-color: #f5a931;
+}
+
+/*------End Base CSS------*/
+
+
+/* ------ Welcome Area CSS */
+.welcome-area {
+    background-image: url("assets/img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #777;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.welcome-area h1 {
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.welcome-area .text-highlight {
+    font-weight: 700;
+    display: block;
+    color: #ec4f8e;
+}
