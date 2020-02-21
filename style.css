@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Open Sans';
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 img {
@@ -63,7 +64,7 @@ p {
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding: 100px 0 50px;
     width: 1170px;
     margin: 0 auto;
 }
@@ -101,8 +102,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     color: #777;
-    font-size: 18px;
-    line-height: 1.5;
 }
 
 .welcome-area h1 {
@@ -116,4 +115,60 @@ p {
     font-weight: 700;
     display: block;
     color: #ec4f8e;
+}
+
+
+/* ------ Biography CSS ------ */
+.biography-area {
+    background-image: url("assets/img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.biography-area .biography-right {
+    width: 40%;
+    margin-left: 9%;
+    margin-top: 150px;
+}
+
+.biography-right h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.biography-right {
+    color: #777;
+}
+
+/* Latest Work CSS */
+.latest-work-area {
+    background-image: url("assets/img/latest-work-bg.png");
+}
+
+.section-title {
+    margin-bottom: 35px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.latest-work-area {
+    background-image: url("assets/img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.single-work-item {
+    width: 31.334%;
+    float: left;
+    margin: 1%;
+}
+
+.single-work-item:hover img {
+    opacity: .7;
+    cursor: pointer;
 }
