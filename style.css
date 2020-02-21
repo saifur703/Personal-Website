@@ -51,6 +51,7 @@ h6 {
 p {
     margin-bottom: 10px;
     margin-top: 0;
+    color: #777;
 }
 
 .fix:before,
@@ -101,7 +102,6 @@ p {
     background-image: url("assets/img/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #777;
 }
 
 .welcome-area h1 {
@@ -138,10 +138,6 @@ p {
     color: #333;
 }
 
-.biography-right {
-    color: #777;
-}
-
 /* Latest Work CSS */
 .latest-work-area {
     background-image: url("assets/img/latest-work-bg.png");
@@ -171,4 +167,67 @@ p {
 .single-work-item:hover img {
     opacity: .7;
     cursor: pointer;
+}
+
+/* ------ Testimonial CSS */
+.testimonial-area {
+    background-image: url("assets/img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.testimonial-area h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.testimonial-area h4 {
+    font-size: 20px;
+    color: #666;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.testimonial-area h4 span {
+    display: block;
+    font-size: 65%;
+    opacity: .5;
+}
+
+.message-box {
+    background-image: linear-gradient(#ec5196, #ed4b70);
+    display: inline-block;
+    padding: 30px 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+}
+
+.message-box a {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.message-box a:hover {
+    opacity: .7;
+}
+
+/* ------ Footer CSS ------- */
+.footer-area {
+    text-align: center;
+    color: #777;
+    padding: 15px 0;
+}
+
+.footer-area a {
+    color: #fac933;
 }
