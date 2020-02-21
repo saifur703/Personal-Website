@@ -277,8 +277,8 @@ p {
 .testimonial-area {
     background-image: url("assets/img/header-bg.png");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
+    background-position: left;
+    background-size: contain;
     text-align: center;
     margin: 50px 0;
 }
