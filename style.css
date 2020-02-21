@@ -344,4 +344,39 @@ p {
     color: #fac933;
 }
 
+.social-area {
+    margin-bottom: 20px;
+}
+
+.social-area a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.social-area a:hover {
+    opacity: .7;
+}
+
+.facebook {
+    background-color: #4267b2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}
+
+.instagram {
+    background-color: tomato;
+}
+
 /* ------ Footer CSS End ------- */
